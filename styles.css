@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*NAVBAR*/
+
+.bg-dark { 
+    background-color: #353a40 !important; 
+} 
+
+.navbar-nav{
+font-size: 0.8rem;
+}
+
+
+/*CAROUSEL*/
+
+.ban-img {
+    filter: brightness(40%);
+}
+
+.custom-caption { 
+    top: 65vh;
+    left: 40vw; 
+    right: 7vw;
+    font-size: 0.9rem;
+
+}
+.text-end{
+    text-align: right; 
+
+}
+.margin-custom {
+    margin-top: 1vh; 
+    width:50vw;
+    display:flex;
+}
+
+
+.custom-color-btn {
+    background: #2ba240;
+    border: 1px solid #2ba240;
+}
+
+
+.custom-color-btn:hover {
+    background-color:rgba(0, 128, 0, 0.5);
+    border:1px solid rgba(0, 128, 0, 0.5);
+    transition: 0.5s;
+
+}
+
+/* HONOLULU */
+.style-po {
+    font-family: roboto,Verdana, Geneva, Tahoma, sans-serif;
+    color: #393d46;
+}
+
+
+.sect-img {
+    width: 50vw;
+    margin: 0%;
+    display: flex;
+    border: 1px solid white;
+}
+
+
+.sect-txt {
+    background-color: #353a40;
+    border: 1px solid white;
+}
+
+
+.style-pi {
+    font-size: 0.6rem;
+    font-weight: 600; 
+}
+
+
+/* FORMULARIO */
+
+.underline{
+    text-decoration: underline dotted;
+}
+.frm-dimension {
+    width: 50vw;
+}
+
+
+.color-input::placeholder {
+    color: #b9bbba;
+}
+
+
+textarea::placeholder {
+    font-size: 20px;
+}
+
+
+.style-lbl {
+    font-size: 13px;
+}
+
+
+/* FORMULARIO BOTÓN*/
+
+.btn-color-custom {
+    background-color: #96c93e;
+}
+
+
+.btn-color-custom:hover {
+    background-color: #54b12a;
+    transition: 0.5s;
+}
+
+/* FOOTER */
+
+.color-grad {
+    background-image: linear-gradient(to right,#1d3947,#1e5170); 
+}
+
+
+.footer-links li {
+    display: flex;
+    margin-top: 10px;
+} 
+
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    /* width: 190vw; */
+    font-size: 0.8rem;
+}
+
+.footer-links a:hover {
+    color: #393d46;
+    transition: 0.5s ;
+}
